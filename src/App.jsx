@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Login from './pages/Login'
 
 
 const App = () => {
   return (
-      <h1>App</h1>
+    <>
+      <Login/>
+      <Navbar/>
+    </>
   )
 }
 
